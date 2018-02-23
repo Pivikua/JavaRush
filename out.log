@@ -1,0 +1,361 @@
+2018-02-11 23:23:20 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-11 23:23:21 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-11 23:23:24 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-11 23:23:29 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-11 23:23:29 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-11 23:23:32 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-11 23:23:32 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-11 23:23:32 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-11 23:23:32 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-11 23:23:32 INFO  ApacheHttpClient.login(244) - JSESSIONID=3533AF777EE0168D13D21B200F3D4452
+2018-02-11 23:23:33 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-11 23:23:33 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-11 23:23:34 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-11 23:23:34 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-11 23:25:35 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-02-11 23:25:38 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-02-11 23:26:00 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-02-11 23:26:01 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-02-11 23:27:05 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-02-11 23:58:05 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2018-02-12 22:06:26 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-12 22:06:27 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-12 22:06:27 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-12 22:06:27 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-12 22:06:27 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-12 22:06:28 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-12 22:06:28 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-12 22:06:28 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-12 22:06:28 INFO  ApacheHttpClient.login(244) - JSESSIONID=334B4869B7DAE070DC67D42402FA0265
+2018-02-12 22:06:28 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-12 22:06:28 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-12 22:06:29 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-12 22:06:29 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-13 20:50:24 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-13 20:50:28 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-13 20:50:31 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-13 20:50:32 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 20:50:32 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 20:50:35 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-13 20:50:35 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-13 20:50:35 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-13 20:50:35 INFO  ApacheHttpClient.login(244) - JSESSIONID=89C1C07D11AB9F223984D761966B4965
+2018-02-13 20:50:35 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-13 20:50:35 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-13 20:50:36 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-13 20:50:36 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-15 08:20:13 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-15 08:20:14 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-15 08:20:18 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-15 08:20:20 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-15 08:20:20 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-15 08:20:22 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-15 08:20:22 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-15 08:20:22 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-15 08:20:22 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-15 08:20:22 INFO  ApacheHttpClient.login(244) - JSESSIONID=8298B0DDDDF5FA85E3A6DEAA93A5EBCB
+2018-02-15 08:20:22 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-15 08:20:23 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-15 08:20:23 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-15 08:20:23 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-15 20:55:12 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-15 20:55:12 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-15 20:55:13 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-15 20:55:14 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-15 20:55:14 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-15 20:55:14 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-15 20:55:14 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-15 20:55:14 INFO  ApacheHttpClient.login(244) - JSESSIONID=00CCCBD2E9881681266DA25773080B22
+2018-02-15 20:55:14 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-15 20:55:15 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-15 20:55:15 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-15 20:55:15 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-16 20:12:28 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-16 20:12:31 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-16 20:12:40 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-16 20:12:41 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-16 20:12:41 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-16 20:12:46 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-16 20:12:46 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-16 20:12:46 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-16 20:12:46 INFO  ApacheHttpClient.login(244) - JSESSIONID=311E574045076AF0BC3F208CCC9F3BBB
+2018-02-16 20:12:46 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-16 20:12:47 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-16 20:12:47 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-16 20:12:48 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-16 22:43:57 ERROR StubTreeLoaderImpl.error(134) - Outdated stub in index: file://D:/JavaRushProject/JavaRushTasks/2.JavaCore/src/com/javarush/task/task18/task1810/Solution.java indexed at 1518728798105 with document size 865, doc=null, docSaved=true, wasIndexedAlready=true, queried at 1518728811577
+2018-02-16 22:43:57 ERROR StubTreeLoaderImpl.logErrorHeader(142) - IntelliJ IDEA 2017.2.1  Build #IC-172.3544.35
+2018-02-16 22:43:57 ERROR StubTreeLoaderImpl.logErrorHeader(149) - JDK: 1.8.0_144
+2018-02-16 22:43:57 ERROR StubTreeLoaderImpl.logErrorHeader(150) - VM: Java HotSpot(TM) Server VM
+2018-02-16 22:43:57 ERROR StubTreeLoaderImpl.logErrorHeader(151) - Vendor: Oracle Corporation
+2018-02-16 22:43:57 ERROR StubTreeLoaderImpl.logErrorHeader(152) - OS: Windows 10
+2018-02-16 22:43:57 ERROR StubTreeLoaderImpl.logErrorHeader(158) - Last Action: EditorEnter
+2018-02-19 20:07:18 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-19 20:07:18 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-19 20:07:19 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-19 20:07:19 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-19 20:07:19 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-19 20:07:20 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-19 20:07:20 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-19 20:07:20 INFO  ApacheHttpClient.login(244) - JSESSIONID=69C8E52F30C35010C57D926D76AA3704
+2018-02-19 20:07:20 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-19 20:07:20 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-19 20:07:20 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-19 20:07:20 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-20 20:07:40 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-20 20:07:42 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-20 20:07:46 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-20 20:07:51 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-20 20:07:51 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-20 20:07:53 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-20 20:07:53 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-20 20:07:53 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-20 20:07:53 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-20 20:07:54 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-20 20:07:54 INFO  ApacheHttpClient.login(244) - JSESSIONID=0608D32A5DD6FEA772FC41DF4F2A8930
+2018-02-20 20:07:54 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-20 20:07:54 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-20 20:07:55 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-20 20:07:55 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-20 20:08:39 ERROR StubTreeLoaderImpl.error(134) - Outdated stub in index: file://D:/JavaRushProject/JavaRushTasks/2.JavaCore/src/com/javarush/task/task18/task1822/Solution.java indexed at 1519070314656 with document size 1597, doc=DocumentImpl[file://D:/JavaRushProject/JavaRushTasks/2.JavaCore/src/com/javarush/task/task18/task1822/Solution.java], docSaved=true, wasIndexedAlready=true, queried at 1519071522103
+2018-02-20 20:08:39 ERROR StubTreeLoaderImpl.logErrorHeader(142) - IntelliJ IDEA 2017.2.1  Build #IC-172.3544.35
+2018-02-20 20:08:39 ERROR StubTreeLoaderImpl.logErrorHeader(149) - JDK: 1.8.0_144
+2018-02-20 20:08:39 ERROR StubTreeLoaderImpl.logErrorHeader(150) - VM: Java HotSpot(TM) Server VM
+2018-02-20 20:08:39 ERROR StubTreeLoaderImpl.logErrorHeader(151) - Vendor: Oracle Corporation
+2018-02-20 20:08:39 ERROR StubTreeLoaderImpl.logErrorHeader(152) - OS: Windows 10
+2018-02-20 20:08:39 ERROR StubTreeLoaderImpl.logErrorHeader(158) - Last Action: 
+2018-02-20 20:08:39 ERROR StubProcessingHelperBase.error(134) - PSI and index do not match.
+Please report the problem to JetBrains with the files attached
+ file=PsiJavaFile:Solution.java, file.class=class com.intellij.psi.impl.source.PsiJavaFileImpl, file.lang=Language: JAVA, modStamp=1
+ tree consistent
+ stub debugInfo=created in calcStubTree; with backReference
+latestIndexedStub=null
+ viewProvider=SingleRootFileViewProvider{myVirtualFile=file://D:/JavaRushProject/JavaRushTasks/2.JavaCore/src/com/javarush/task/task18/task1822/Solution.java, content=VirtualFileContent{size=2194}}
+ viewProvider stamp: 0; file stamp: 0; file modCount: 1519071522103; file length: 2194
+ doc saved: true; doc stamp: 0; doc size: 1597; committed: true
+in many projects: false
+indexing info: indexed at 1519070314656 with document size 1597
+com.intellij.openapi.diagnostic.RuntimeExceptionWithAttachments: PSI and index do not match.
+Please report the problem to JetBrains with the files attached
+ file=PsiJavaFile:Solution.java, file.class=class com.intellij.psi.impl.source.PsiJavaFileImpl, file.lang=Language: JAVA, modStamp=1
+ tree consistent
+ stub debugInfo=created in calcStubTree; with backReference
+latestIndexedStub=null
+ viewProvider=SingleRootFileViewProvider{myVirtualFile=file://D:/JavaRushProject/JavaRushTasks/2.JavaCore/src/com/javarush/task/task18/task1822/Solution.java, content=VirtualFileContent{size=2194}}
+ viewProvider stamp: 0; file stamp: 0; file modCount: 1519071522103; file length: 2194
+ doc saved: true; doc stamp: 0; doc size: 1597; committed: true
+in many projects: false
+indexing info: indexed at 1519070314656 with document size 1597
+	at com.intellij.psi.stubs.StubTreeLoader.stubTreeAndIndexDoNotMatch(StubTreeLoader.java:132)
+	at com.intellij.psi.stubs.StubProcessingHelperBase.inconsistencyDetected(StubProcessingHelperBase.java:178)
+	at com.intellij.psi.stubs.StubProcessingHelperBase.processStubsInFile(StubProcessingHelperBase.java:168)
+	at com.intellij.psi.stubs.StubProcessingHelperBase.processStubsInFile(StubProcessingHelperBase.java:53)
+	at com.intellij.psi.stubs.StubIndexImpl$2.process(StubIndexImpl.java:331)
+	at com.intellij.psi.stubs.StubIndexImpl$StubIdListContainerAction.perform(StubIndexImpl.java:617)
+	at com.intellij.psi.stubs.StubIndexImpl$StubIdListContainerAction.perform(StubIndexImpl.java:605)
+	at com.intellij.util.indexing.ValueContainer.forEach(ValueContainer.java:62)
+	at com.intellij.psi.stubs.StubIndexImpl.doProcessStubs(StubIndexImpl.java:360)
+	at com.intellij.psi.stubs.StubIndexImpl.processElements(StubIndexImpl.java:323)
+	at com.intellij.psi.stubs.StubIndex.getElements(StubIndex.java:145)
+	at com.intellij.psi.stubs.StubIndex.getElements(StubIndex.java:134)
+	at com.intellij.psi.impl.java.stubs.index.JavaFullClassNameIndex.get(JavaFullClassNameIndex.java:48)
+	at com.intellij.psi.impl.file.impl.JavaFileManagerImpl.doFindClasses(JavaFileManagerImpl.java:96)
+	at com.intellij.psi.impl.file.impl.JavaFileManagerImpl.findClasses(JavaFileManagerImpl.java:83)
+	at com.intellij.psi.impl.PsiElementFinderImpl.findClasses(PsiElementFinderImpl.java:60)
+	at com.intellij.psi.impl.JavaPsiFacadeImpl.findClasses(JavaPsiFacadeImpl.java:173)
+	at com.intellij.codeInsight.daemon.impl.analysis.HighlightClassUtil.checkDuplicateTopLevelClass(HighlightClassUtil.java:165)
+	at com.intellij.codeInsight.daemon.impl.analysis.HighlightVisitorImpl.visitClass(HighlightVisitorImpl.java:404)
+	at com.intellij.psi.impl.source.PsiClassImpl.accept(PsiClassImpl.java:470)
+	at com.intellij.codeInsight.daemon.impl.analysis.HighlightVisitorImpl.visit(HighlightVisitorImpl.java:149)
+	at com.intellij.codeInsight.daemon.impl.GeneralHighlightingPass.runVisitors(GeneralHighlightingPass.java:368)
+	at com.intellij.codeInsight.daemon.impl.GeneralHighlightingPass.lambda$collectHighlights$5(GeneralHighlightingPass.java:301)
+	at com.intellij.codeInsight.daemon.impl.GeneralHighlightingPass.analyzeByVisitors(GeneralHighlightingPass.java:327)
+	at com.intellij.codeInsight.daemon.impl.GeneralHighlightingPass.lambda$analyzeByVisitors$6(GeneralHighlightingPass.java:330)
+	at com.intellij.codeInsight.daemon.impl.analysis.HighlightVisitorImpl.lambda$analyze$2(HighlightVisitorImpl.java:174)
+	at com.intellij.codeInsight.daemon.impl.analysis.RefCountHolder.analyze(RefCountHolder.java:335)
+	at com.intellij.codeInsight.daemon.impl.analysis.HighlightVisitorImpl.analyze(HighlightVisitorImpl.java:173)
+	at com.intellij.codeInsight.daemon.impl.GeneralHighlightingPass.analyzeByVisitors(GeneralHighlightingPass.java:330)
+	at com.intellij.codeInsight.daemon.impl.GeneralHighlightingPass.lambda$analyzeByVisitors$6(GeneralHighlightingPass.java:330)
+	at com.intellij.codeInsight.daemon.impl.DefaultHighlightVisitor.analyze(DefaultHighlightVisitor.java:86)
+	at com.intellij.codeInsight.daemon.impl.GeneralHighlightingPass.analyzeByVisitors(GeneralHighlightingPass.java:330)
+	at com.intellij.codeInsight.daemon.impl.GeneralHighlightingPass.collectHighlights(GeneralHighlightingPass.java:298)
+	at com.intellij.codeInsight.daemon.impl.GeneralHighlightingPass.collectInformationWithProgress(GeneralHighlightingPass.java:238)
+	at com.intellij.codeInsight.daemon.impl.ProgressableTextEditorHighlightingPass.doCollectInformation(ProgressableTextEditorHighlightingPass.java:83)
+	at com.intellij.codeHighlighting.TextEditorHighlightingPass.collectInformation(TextEditorHighlightingPass.java:70)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.lambda$null$1(PassExecutorService.java:438)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1161)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.lambda$doRun$2(PassExecutorService.java:431)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:548)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:493)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.doRun(PassExecutorService.java:430)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.lambda$run$0(PassExecutorService.java:406)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.executeByImpatientReader(ReadMostlyRWLock.java:142)
+	at com.intellij.openapi.application.impl.ApplicationImpl.executeByImpatientReader(ApplicationImpl.java:250)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.run(PassExecutorService.java:404)
+	at com.intellij.concurrency.JobLauncherImpl$VoidForkJoinTask$1.exec(JobLauncherImpl.java:165)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2018-02-20 20:08:39 ERROR StubProcessingHelperBase.logErrorHeader(142) - IntelliJ IDEA 2017.2.1  Build #IC-172.3544.35
+2018-02-20 20:08:39 ERROR StubProcessingHelperBase.logErrorHeader(149) - JDK: 1.8.0_144
+2018-02-20 20:08:39 ERROR StubProcessingHelperBase.logErrorHeader(150) - VM: Java HotSpot(TM) Server VM
+2018-02-20 20:08:39 ERROR StubProcessingHelperBase.logErrorHeader(151) - Vendor: Oracle Corporation
+2018-02-20 20:08:39 ERROR StubProcessingHelperBase.logErrorHeader(152) - OS: Windows 10
+2018-02-20 20:08:39 ERROR StubProcessingHelperBase.logErrorHeader(158) - Last Action: 
+2018-02-22 20:25:30 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-22 20:25:31 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-22 20:25:32 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-22 20:25:34 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-22 20:25:34 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-22 20:25:35 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-22 20:25:35 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-22 20:25:35 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-22 20:25:35 INFO  ApacheHttpClient.login(244) - JSESSIONID=4F25897DA282876A0FD07F91C9CE4880
+2018-02-22 20:25:35 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-22 20:25:35 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-22 20:25:35 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-22 20:25:35 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-23 14:51:02 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-23 14:51:03 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-23 14:51:05 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-23 14:51:08 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-23 14:51:08 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-23 14:51:10 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-23 14:51:10 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-23 14:51:10 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-23 14:51:11 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-23 14:51:11 INFO  ApacheHttpClient.login(244) - JSESSIONID=F6C32AFCFE35FDF6CD4EB3A1710D6628
+2018-02-23 14:51:11 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-23 14:51:11 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-23 14:51:11 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-23 14:51:11 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-23 14:52:16 ERROR StubTreeLoaderImpl.error(134) - Outdated stub in index: file://D:/JavaRushProject/JavaRushTasks/2.JavaCore/src/com/javarush/task/task18/task1824/Solution.java indexed at 1519335359271 with document size 1330, doc=DocumentImpl[file://D:/JavaRushProject/JavaRushTasks/2.JavaCore/src/com/javarush/task/task18/task1824/Solution.java], docSaved=true, wasIndexedAlready=true, queried at 1519335470431
+2018-02-23 14:52:16 ERROR StubTreeLoaderImpl.logErrorHeader(142) - IntelliJ IDEA 2017.2.1  Build #IC-172.3544.35
+2018-02-23 14:52:16 ERROR StubTreeLoaderImpl.logErrorHeader(149) - JDK: 1.8.0_144
+2018-02-23 14:52:16 ERROR StubTreeLoaderImpl.logErrorHeader(150) - VM: Java HotSpot(TM) Server VM
+2018-02-23 14:52:16 ERROR StubTreeLoaderImpl.logErrorHeader(151) - Vendor: Oracle Corporation
+2018-02-23 14:52:16 ERROR StubTreeLoaderImpl.logErrorHeader(152) - OS: Windows 10
+2018-02-23 14:52:16 ERROR StubTreeLoaderImpl.logErrorHeader(158) - Last Action: 
+2018-02-23 14:52:16 ERROR StubProcessingHelperBase.error(134) - PSI and index do not match.
+Please report the problem to JetBrains with the files attached
+ file=PsiJavaFile:Solution.java, file.class=class com.intellij.psi.impl.source.PsiJavaFileImpl, file.lang=Language: JAVA, modStamp=1
+ tree consistent
+ stub debugInfo=created in calcStubTree; with backReference
+latestIndexedStub=null
+ viewProvider=SingleRootFileViewProvider{myVirtualFile=file://D:/JavaRushProject/JavaRushTasks/2.JavaCore/src/com/javarush/task/task18/task1824/Solution.java, content=VirtualFileContent{size=1893}}
+ viewProvider stamp: 0; file stamp: 0; file modCount: 1519335470431; file length: 1893
+ doc saved: true; doc stamp: 0; doc size: 1330; committed: true
+in many projects: false
+indexing info: indexed at 1519335359271 with document size 1330
+com.intellij.openapi.diagnostic.RuntimeExceptionWithAttachments: PSI and index do not match.
+Please report the problem to JetBrains with the files attached
+ file=PsiJavaFile:Solution.java, file.class=class com.intellij.psi.impl.source.PsiJavaFileImpl, file.lang=Language: JAVA, modStamp=1
+ tree consistent
+ stub debugInfo=created in calcStubTree; with backReference
+latestIndexedStub=null
+ viewProvider=SingleRootFileViewProvider{myVirtualFile=file://D:/JavaRushProject/JavaRushTasks/2.JavaCore/src/com/javarush/task/task18/task1824/Solution.java, content=VirtualFileContent{size=1893}}
+ viewProvider stamp: 0; file stamp: 0; file modCount: 1519335470431; file length: 1893
+ doc saved: true; doc stamp: 0; doc size: 1330; committed: true
+in many projects: false
+indexing info: indexed at 1519335359271 with document size 1330
+	at com.intellij.psi.stubs.StubTreeLoader.stubTreeAndIndexDoNotMatch(StubTreeLoader.java:132)
+	at com.intellij.psi.stubs.StubProcessingHelperBase.inconsistencyDetected(StubProcessingHelperBase.java:178)
+	at com.intellij.psi.stubs.StubProcessingHelperBase.processStubsInFile(StubProcessingHelperBase.java:168)
+	at com.intellij.psi.stubs.StubProcessingHelperBase.processStubsInFile(StubProcessingHelperBase.java:53)
+	at com.intellij.psi.stubs.StubIndexImpl$2.process(StubIndexImpl.java:331)
+	at com.intellij.psi.stubs.StubIndexImpl$StubIdListContainerAction.perform(StubIndexImpl.java:617)
+	at com.intellij.psi.stubs.StubIndexImpl$StubIdListContainerAction.perform(StubIndexImpl.java:605)
+	at com.intellij.util.indexing.ValueContainer.forEach(ValueContainer.java:62)
+	at com.intellij.psi.stubs.StubIndexImpl.doProcessStubs(StubIndexImpl.java:360)
+	at com.intellij.psi.stubs.StubIndexImpl.processElements(StubIndexImpl.java:323)
+	at com.intellij.psi.stubs.StubIndex.getElements(StubIndex.java:145)
+	at com.intellij.psi.stubs.StubIndex.getElements(StubIndex.java:134)
+	at com.intellij.psi.impl.java.stubs.index.JavaFullClassNameIndex.get(JavaFullClassNameIndex.java:48)
+	at com.intellij.psi.impl.file.impl.JavaFileManagerImpl.doFindClasses(JavaFileManagerImpl.java:96)
+	at com.intellij.psi.impl.file.impl.JavaFileManagerImpl.findClass(JavaFileManagerImpl.java:131)
+	at org.jetbrains.kotlin.resolve.jvm.KotlinJavaPsiFacade$NonCliFinder.findClass(KotlinJavaPsiFacade.java:415)
+	at org.jetbrains.kotlin.resolve.jvm.KotlinJavaPsiFacade.findClass(KotlinJavaPsiFacade.java:122)
+	at org.jetbrains.kotlin.load.java.JavaClassFinderImpl.findClass(JavaClassFinderImpl.java:95)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaClassMemberScope$nestedClasses$1.invoke(LazyJavaClassMemberScope.kt:642)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaClassMemberScope$nestedClasses$1.invoke(LazyJavaClassMemberScope.kt:66)
+	at org.jetbrains.kotlin.storage.LockBasedStorageManager$MapBasedMemoizedFunction.invoke(LockBasedStorageManager.java:402)
+	at org.jetbrains.kotlin.load.java.lazy.descriptors.LazyJavaClassMemberScope.getContributedClassifier(LazyJavaClassMemberScope.kt:653)
+	at org.jetbrains.kotlin.resolve.scopes.InnerClassesScopeWrapper.getContributedClassifier(InnerClassesScopeWrapper.kt:29)
+	at org.jetbrains.kotlin.resolve.jvm.JavaDescriptorResolver.resolveClass(JavaDescriptorResolver.kt:38)
+	at org.jetbrains.kotlin.idea.caches.resolve.JavaResolutionUtils.resolveConstructor(JavaResolveExtension.kt:127)
+	at org.jetbrains.kotlin.idea.caches.resolve.JavaResolutionUtils.getJavaMethodDescriptor(JavaResolveExtension.kt:47)
+	at org.jetbrains.kotlin.idea.caches.resolve.JavaResolutionUtils.getJavaMethodDescriptor$default(JavaResolveExtension.kt:42)
+	at org.jetbrains.kotlin.idea.search.ideaExtensions.KotlinPropertyAccessorsReferenceSearcher.propertyName(KotlinPropertyAccessorsReferenceSearcher.kt:57)
+	at org.jetbrains.kotlin.idea.search.ideaExtensions.KotlinPropertyAccessorsReferenceSearcher.processQuery(KotlinPropertyAccessorsReferenceSearcher.kt:41)
+	at org.jetbrains.kotlin.idea.search.ideaExtensions.KotlinPropertyAccessorsReferenceSearcher.processQuery(KotlinPropertyAccessorsReferenceSearcher.kt:35)
+	at com.intellij.openapi.application.QueryExecutorBase.execute(QueryExecutorBase.java:87)
+	at com.intellij.util.ExecutorsQuery.processResults(ExecutorsQuery.java:45)
+	at com.intellij.util.AbstractQuery.forEach(AbstractQuery.java:79)
+	at com.intellij.util.MergeQuery.processSubQuery(MergeQuery.java:85)
+	at com.intellij.util.MergeQuery.forEach(MergeQuery.java:57)
+	at com.intellij.util.UniqueResultsQuery.process(UniqueResultsQuery.java:66)
+	at com.intellij.util.UniqueResultsQuery.forEach(UniqueResultsQuery.java:56)
+	at com.intellij.find.findUsages.JavaFindUsagesHelper.addElementUsages(JavaFindUsagesHelper.java:470)
+	at com.intellij.find.findUsages.JavaFindUsagesHelper.processElementUsages(JavaFindUsagesHelper.java:133)
+	at com.intellij.codeInsight.daemon.impl.UnusedSymbolUtil.processUsages(UnusedSymbolUtil.java:270)
+	at com.intellij.codeInspection.visibility.AccessCanBeTightenedInspection$MyVisitor.suggestLevel(AccessCanBeTightenedInspection.java:190)
+	at com.intellij.codeInspection.visibility.AccessCanBeTightenedInspection$MyVisitor.checkMember(AccessCanBeTightenedInspection.java:112)
+	at com.intellij.codeInspection.visibility.AccessCanBeTightenedInspection$MyVisitor.visitMethod(AccessCanBeTightenedInspection.java:99)
+	at com.intellij.psi.impl.source.PsiMethodImpl.accept(PsiMethodImpl.java:290)
+	at com.intellij.codeInspection.InspectionEngine.acceptElements(InspectionEngine.java:82)
+	at com.intellij.codeInspection.InspectionEngine.createVisitorAndAcceptElements(InspectionEngine.java:70)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass.runToolOnElements(LocalInspectionsPass.java:282)
+	at com.intellij.codeInsight.daemon.impl.LocalInspectionsPass.lambda$visitPriorityElementsAndInit$3(LocalInspectionsPass.java:250)
+	at com.intellij.concurrency.ApplierCompleter.execAndForkSubTasks(ApplierCompleter.java:133)
+	at com.intellij.concurrency.ApplierCompleter.tryToExecAllList(ApplierCompleter.java:222)
+	at com.intellij.concurrency.ApplierCompleter.execAndForkSubTasks(ApplierCompleter.java:151)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1161)
+	at com.intellij.concurrency.ApplierCompleter.lambda$wrapInReadActionAndIndicator$1(ApplierCompleter.java:105)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:548)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:493)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.concurrency.ApplierCompleter.wrapInReadActionAndIndicator(ApplierCompleter.java:116)
+	at com.intellij.concurrency.ApplierCompleter.lambda$compute$0(ApplierCompleter.java:96)
+	at com.intellij.openapi.application.impl.ReadMostlyRWLock.executeByImpatientReader(ReadMostlyRWLock.java:142)
+	at com.intellij.openapi.application.impl.ApplicationImpl.executeByImpatientReader(ApplicationImpl.java:250)
+	at com.intellij.concurrency.ApplierCompleter.compute(ApplierCompleter.java:96)
+	at java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:731)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2018-02-23 14:52:16 ERROR StubProcessingHelperBase.logErrorHeader(142) - IntelliJ IDEA 2017.2.1  Build #IC-172.3544.35
+2018-02-23 14:52:16 ERROR StubProcessingHelperBase.logErrorHeader(149) - JDK: 1.8.0_144
+2018-02-23 14:52:16 ERROR StubProcessingHelperBase.logErrorHeader(150) - VM: Java HotSpot(TM) Server VM
+2018-02-23 14:52:16 ERROR StubProcessingHelperBase.logErrorHeader(151) - Vendor: Oracle Corporation
+2018-02-23 14:52:16 ERROR StubProcessingHelperBase.logErrorHeader(152) - OS: Windows 10
+2018-02-23 14:52:16 ERROR StubProcessingHelperBase.logErrorHeader(158) - Last Action: 
+2018-02-23 15:07:04 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2018-02-23 15:08:06 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-23 15:08:06 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-23 15:08:07 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-23 15:08:08 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-23 15:08:08 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-23 15:08:09 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-23 15:08:09 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-23 15:08:09 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-23 15:08:09 INFO  ApacheHttpClient.login(244) - JSESSIONID=3433AA1651EC165ECB1EA4D5D9097A4F
+2018-02-23 15:08:09 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-23 15:08:09 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-23 15:08:09 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-23 15:08:09 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
