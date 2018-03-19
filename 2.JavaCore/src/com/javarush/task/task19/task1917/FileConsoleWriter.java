@@ -4,6 +4,8 @@ package com.javarush.task.task19.task1917;
 Свой FileWriter
 */
 
+import java.io.File;
+import java.io.FileDescriptor;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -11,33 +13,29 @@ public class FileConsoleWriter {
 
     private FileWriter fileWriter;
 
-    /*private char[] cbuf;
-    int off, len, c;
-    String str;
-
-    public FileConsoleWriter(char[] cbuf, int off, int len) {
-        this.cbuf = cbuf;
-        this.off = off;
-        this.len = len;
+    public FileConsoleWriter(String fileName) throws IOException {
+        fileWriter = new FileWriter(fileName);
     }
 
-    public FileConsoleWriter(int c) {
-        this.c = c;
+    public FileConsoleWriter(String fileName, boolean append) throws IOException {
+        fileWriter = new FileWriter(fileName, append);
     }
 
-    public FileConsoleWriter(String str) {
-        this.str = str;
+    public FileConsoleWriter(File file) throws IOException {
+        fileWriter = new FileWriter(file);
     }
 
-    public FileConsoleWriter(String str, int off, int len) {
-        this.off = off;
-        this.len = len;
-        this.str = str;
+    public FileConsoleWriter(File file, boolean append) throws IOException {
+        fileWriter = new FileWriter(file, append);
     }
 
-    public FileConsoleWriter(char[] cbuf) {
-        this.cbuf = cbuf;
-    }*/
+    public FileConsoleWriter(FileDescriptor fd) {
+        fileWriter = new FileWriter(fd);
+    }
+
+    public String getEncoding() {
+        return fileWriter.getEncoding();
+    }
 
     public void write(char[] cbuf, int off, int len) throws IOException {
         fileWriter.write(cbuf, off, len);
@@ -73,9 +71,6 @@ public class FileConsoleWriter {
     }
 
     public static void main(String[] args) {
-        FileConsoleWriter fileConsoleWriter = new FileConsoleWriter();
 
-        //System.out.println(fileConsoleWriter.getClass().toString().equals());
     }
-
 }
