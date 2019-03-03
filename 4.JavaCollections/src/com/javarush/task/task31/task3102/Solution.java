@@ -2,8 +2,10 @@ package com.javarush.task.task31.task3102;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.*;
-import java.util.*;
+import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /* 
 Находим все файлы
@@ -46,6 +48,5 @@ public class Solution {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }

@@ -3,6 +3,7 @@ package com.javarush.task.task31.task3108;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Iterator;
 
 /* 
 Исследуем Path
@@ -16,6 +17,6 @@ public class Solution {
     }
 
     public static Path getDiffBetweenTwoPaths(Path path1, Path path2) {
-        return null;
+        return path1.relativize(path2);
     }
 }

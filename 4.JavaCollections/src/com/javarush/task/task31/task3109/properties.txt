@@ -1,2 +1,2 @@
-name=Amigo
+second=Amigo
 level=31

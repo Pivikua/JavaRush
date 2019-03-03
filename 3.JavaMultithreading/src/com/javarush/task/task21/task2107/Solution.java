@@ -5,8 +5,17 @@ import java.util.Map;
 
 /* 
 Глубокое клонирование карты
+Обеспечь возможность клонирования объекта класса Solution используя глубокое клонирование.
+Данные в карте users также должны быть клонированы.
+Не забудь о методах equals и hashCode для корректного добавления элементов типа User в HashMap.
+
+Требования:
+1. Класс Solution должен поддерживать интерфейс Cloneable.
+2. Класс User должен поддерживать интерфейс Cloneable.
+3. В классе User должен быть корректно реализован метод clone.
+4. В классе Solution должен быть корректно реализован метод clone.
 */
-/*public class Solution {
+public class Solution implements Cloneable{
 
     public static void main(String[] args) {
         Solution solution = new Solution();
@@ -28,7 +37,7 @@ import java.util.Map;
 
     protected Map<String, User> users = new LinkedHashMap();
 
-    public static class User {
+    public static class User implements Cloneable{
         int age;
         String name;
 
@@ -38,19 +47,41 @@ import java.util.Map;
         }
 
         @Override
-        protected Object clone() throws CloneNotSupportedException {
-            return new User(this.age,this.name);
+        public int hashCode() {
+            int result = age;
+            result = 31 * result + (name != null ? name.hashCode() : 0);
+            return result;
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            if (obj == this)
+                return true;
+            if (obj == null)
+                return false;
+            if (!(obj instanceof User))
+                return false;
+
+            User user = (User) obj;
+            if (age != user.age) return false;
+            if (name != null ? !name.equals(user.name) : user.name != null) return false;
+            return true;
+        }
+
+        @Override
+        protected User clone() throws CloneNotSupportedException {
+            User user = new User(this.age, this.name);
+            return user;
         }
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-
+    protected Solution clone() throws CloneNotSupportedException {
         Solution solution = new Solution();
-        //solution.users = this.users;
-        for (Map.Entry<String,User> uu : this.users.entrySet())
-            solution.users.put(uu.getKey(),(User)uu.getValue().clone());
-
-        return (Solution) solution;
+        for (Map.Entry<String, User> pair : this.users.entrySet()) {
+            User user = pair.getValue().clone();
+            solution.users.put(pair.getKey(), user);
+        }
+        return solution;
     }
-}*/
+}

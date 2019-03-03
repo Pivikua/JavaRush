@@ -2,14 +2,22 @@ package com.javarush.task.task21.task2108;
 
 /* 
 Клонирование растений
+Класс Plant не должен реализовывать интерфейс Cloneable
+Реализуй механизм глубокого клонирования для Tree.
+
+Требования:
+1. Класс Plant не должен поддерживать интерфейс Cloneable.
+2. Класс Tree должен поддерживать интерфейс Cloneable.
+3. Класс Tree должен быть потомком класса Plant.
+4. В классе Tree должен быть корректно реализован метод clone.
 */
 public class Solution {
     public static void main(String[] args) {
         Tree tree = new Tree("willow", new String[]{"s1", "s2", "s3", "s4"});
         Tree clone = null;
         try {
-            //Я//clone = tree.clone();
-        } catch (/*CloneNotSupportedException*/ Exception e) {
+            clone = tree.clone();
+        } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
 
@@ -32,7 +40,7 @@ public class Solution {
         }
     }
 
-    public static class Tree extends Plant {
+    public static class Tree extends Plant implements Cloneable {
         private String[] branches;
 
         public Tree(String name, String[] branches) {
@@ -42,6 +50,15 @@ public class Solution {
 
         public String[] getBranches() {
             return branches;
+        }
+
+        @Override
+        protected Tree clone() throws CloneNotSupportedException {
+            String[] strings = new String[branches.length];
+            for (int i = 0; i < branches.length; i++) {
+                strings[i] = branches[i];
+            }
+            return new Tree(super.getName(), strings);
         }
     }
 }

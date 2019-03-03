@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="3.JavaMultithreading:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/3_JavaMultithreading_jar</output-path>
+    <root id="archive" name="3.JavaMultithreading.jar">
+      <element id="module-output" name="3.JavaMultithreading" />
+      <element id="extracted-dir" path="D:/IDEAProjects/JAVA_LIB/Mail/jaf-1_1_1/jaf-1.1.1/activation.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/IDEAProjects/JAVA_LIB/Mail/javax.mail.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

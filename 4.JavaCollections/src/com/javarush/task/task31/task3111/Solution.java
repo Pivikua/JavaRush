@@ -1,9 +1,6 @@
 package com.javarush.task.task31.task3111;
 
-import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -28,13 +25,6 @@ public class Solution {
         for (Path file : foundFiles) {
             System.out.println(file);
         }
-
-        /*URL url = new URL("https://www.google.com.ua/images/srpr/logo11w.png");
-        InputStream inputStream = url.openStream();
-
-        Path tempFile = Files.createTempFile("text", ".temp");
-        Files.copy(inputStream, tempFile);*/
-
     }
 
 }

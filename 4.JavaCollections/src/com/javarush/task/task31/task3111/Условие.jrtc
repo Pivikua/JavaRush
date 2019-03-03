@@ -20,3 +20,13 @@ taskKey="com.javarush.task.task31.task3111"
 Подсказка 2: для работы с файлами используй только классы из пакета java.nio.
 
 
+Требования:
+1.	В классе SearchFileVisitor нужно создать поля partOfName, partOfContent, minSize, maxSize и сеттеры для них.
+2.	В классе SearchFileVisitor нужно создать поле foundFiles и геттер для него. Поле должно быть сразу инициализировано.
+3.	Если в SearchFileVisitor задан критерий поиска partOfName, метод visitFile должен добавить файл в foundFiles, если в названии содержится строка partOfName.
+4.	Если в SearchFileVisitor задан критерий поиска partOfContent, метод visitFile должен добавить файл в foundFiles, если в содержимом встречается строка partOfContent.
+5.	Если в SearchFileVisitor задан критерий поиска maxSize, метод visitFile должен добавить файл в foundFiles, если размер файла меньше maxSize.
+6.	Если в SearchFileVisitor задан критерий поиска minSize, метод visitFile должен добавить файл в foundFiles, если размер файла больше minSize.
+7.	Метод visitFile должен быть реализован так, чтобы учитывать сразу несколько критериев поиска.
+
+

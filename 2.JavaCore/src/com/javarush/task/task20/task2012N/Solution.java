@@ -62,7 +62,7 @@ public class Solution {
         }
     }
 
-    public static void main(String[] args) throws FileNotFoundException, IOException {
+    public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
 
         OutputToConsole outputToConsole = new OutputToConsole(5);
 
@@ -73,6 +73,7 @@ public class Solution {
         objectOutputStream.close();
 
         ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(filName));
-        Solution.OutputToConsole
+        outputToConsole.readExternal(objectInputStream);
+        objectInputStream.close();
     }
 }

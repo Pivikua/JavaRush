@@ -6,11 +6,19 @@ import java.util.Map;
 
 /* 
 Исправить ошибку. Сериализация
+После десериализации объекта класса Solution обнаружили, что данных в словаре [m] нет :(
+Исправить 1 ошибку.
+
+Требования:
+1. В классе Solution не должно быть метода void Solution без параметров.
+2. В классе Solution должен существовать конструктор без параметров.
+3. В классе Solution должен существовать метод size без параметров.
+4. В классе Solution метод size должен возвращать значение типа int.
 */
 public class Solution implements Serializable {
 
     public static void main(String args[]) throws Exception {
-        FileOutputStream fileOutput = new FileOutputStream("your.file.name");
+        FileOutputStream fileOutput = new FileOutputStream("D:\\test\\0.txt");
         ObjectOutputStream outputStream = new ObjectOutputStream(fileOutput);
 
         Solution solution = new Solution();
@@ -20,7 +28,7 @@ public class Solution implements Serializable {
         outputStream.close();
 
         //loading
-        FileInputStream fiStream = new FileInputStream("your.file.name");
+        FileInputStream fiStream = new FileInputStream("D:\\test\\0.txt");
         ObjectInputStream objectStream = new ObjectInputStream(fiStream);
 
         Solution loadedObject = (Solution) objectStream.readObject();
@@ -38,7 +46,7 @@ public class Solution implements Serializable {
         return m;
     }
 
-    public void Solution() {
+    public Solution() {
         m.put("Mickey", "Mouse");
         m.put("Mickey", "Mantle");
     }

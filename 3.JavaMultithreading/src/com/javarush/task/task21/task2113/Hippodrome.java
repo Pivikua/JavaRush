@@ -1,79 +1,64 @@
 package com.javarush.task.task21.task2113;
 
 import java.util.ArrayList;
-import java.util.List;
 
-/**
- * Created by HiEND on 22.03.2017.
- */
 public class Hippodrome {
+    static Hippodrome game;
+    private ArrayList<Horse> horses = new ArrayList<>();
+
+    public Hippodrome(ArrayList<Horse> horses) {
+        this.horses = horses;
+    }
+
     public static void main(String[] args) {
-
-        Horse horse1 = new Horse("Клюковка", 3, 0);
-        Horse horse2 = new Horse("Малинка", 3, 0);
-        Horse horse3 = new Horse("Грибок", 3, 0);
-
         game = new Hippodrome();
-
-        game.getHorses().add(horse1);
-        game.getHorses().add(horse2);
-        game.getHorses().add(horse3);
-
+        game.horses.add(new Horse("Horse1", 3, 0));
+        game.horses.add(new Horse("Horse2", 3, 0));
+        game.horses.add(new Horse("Horse3", 3, 0));
         game.run();
         game.printWinner();
     }
 
-    static Hippodrome game;
-
     public Hippodrome() {
     }
 
-    public Hippodrome(List<Horse> horses) {
-        this.horses = horses;
-    }
-
-    private List<Horse> horses = new ArrayList<>();
-
-    public List<Horse> getHorses() {
+    public ArrayList<Horse> getHorses() {
         return horses;
     }
 
-    public void run() {
+    void run(){
         for (int i = 0; i < 100; i++) {
             move();
             print();
             try {
                 Thread.sleep(200);
             } catch (InterruptedException e) {
-                //e.printStackTrace();
+                e.printStackTrace();
             }
         }
     }
 
-    public void move() {
-        for (Horse horse : horses) {
-            horse.move();
+    void move() {
+        for (int i = 0; i < game.horses.size(); i++) {
+            game.getHorses().get(i).move();
         }
     }
 
-    public void print() {
-        for (Horse horse : horses) {
-            horse.print();
+    void print() {
+        for (int i = 0; i < game.horses.size(); i++) {
+            getHorses().get(i).print();
         }
-
-        for (int i = 0; i < 10; i++) {
-            System.out.println();
-        }
+        System.out.println();
     }
 
-    public Horse getWinner(){
-        if(horses.get(0).getDistance() > horses.get(1).getDistance() &&
-                horses.get(0).getDistance() > horses.get(2).getDistance()){ return horses.get(0); }
-        if(horses.get(1).getDistance() > horses.get(0).getDistance() &&
-                horses.get(1).getDistance() > horses.get(2).getDistance()){ return horses.get(1); }
-        if(horses.get(2).getDistance() > horses.get(0).getDistance() &&
-                horses.get(2).getDistance() > horses.get(1).getDistance()){ return horses.get(2); }
-        return horses.get(0);
+    public Horse getWinner() {
+        if (getHorses().get(0).distance > getHorses().get(1).distance && getHorses().get(0).distance > getHorses().get(2).distance) {
+            return getHorses().get(0);
+        }else if (getHorses().get(1).distance > getHorses().get(0).distance && getHorses().get(1).distance > getHorses().get(2).distance) {
+            return getHorses().get(1);
+        } else {
+            return getHorses().get(2);
+        }
     }
 
     public void printWinner() {

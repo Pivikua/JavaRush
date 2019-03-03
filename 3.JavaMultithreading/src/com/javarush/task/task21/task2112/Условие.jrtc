@@ -16,3 +16,11 @@ Closing database connection...
 Обрати внимание на то, что ресурсы были освобождены автоматически несмотря на исключение брошенное методом unsupportedOperation.
 
 
+Требования:
+1.	Класс FakeConnection должен поддерживать интерфейс AutoCloseable.
+2.	Метод close класса FakeConnection должен выводить на экран фразу "Closing database connection...".
+3.	В методе main класса Solution должны быть вызваны методы usefulOperation и unsupportedOperation у объекта класса FakeConnection.
+4.	Вывод на экран должен соответствовать условию задачи.
+5.	Метод close класса FakeConnection не должен бывать вызван явно.
+
+

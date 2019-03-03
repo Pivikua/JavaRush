@@ -8,3 +8,10 @@ taskKey="com.javarush.task.task31.task3108"
 Метод main не участвует в тестировании.
 
 
+Требования:
+1.	Класс Solution должен содержать метод Path getDiffBetweenTwoPaths(Path path1, Path path2).
+2.	Метод Path getDiffBetweenTwoPaths(Path path1, Path path2) должен быть статическим.
+3.	Метод getDiffBetweenTwoPaths должен возвращать относительный путь между первым аргументом и вторым.
+4.	Для реализации метода getDiffBetweenTwoPaths используй правильный метод объекта Path.
+
+

@@ -9,6 +9,14 @@ import java.util.List;
 
 /* 
 Освобождаем ресурсы
+Реализуй метод finalize, предварительно обдумав, что именно в нем должно быть.
+Проведи рефакторинг метода getUsers в соответствии с java7 try-with-resources.
+
+Требования:
+1. Метод finalize в классе Solution должен содержать вызов super.finalize().
+2. Метод finalize в классе Solution должен корректно завершаться в случае, если значение поля connection равно null.
+3. Метод finalize в классе Solution должен закрывать текущее соединение, если значение поля connection не равно null.
+4. Метод getUsers должен корректно использовать try-with-resources.
 */
 public class Solution {
     private Connection connection;
@@ -22,12 +30,8 @@ public class Solution {
 
         List<User> result = new LinkedList();
 
-        Statement stmt = null;
-        ResultSet rs = null;
-
-        try {
-            stmt = connection.createStatement();
-            rs = stmt.executeQuery(query);
+        try (Statement stmt = connection.createStatement();
+             ResultSet rs = stmt.executeQuery(query);) {
             while (rs.next()) {
                 int id = rs.getInt("ID");
                 String name = rs.getString("DISPLAYED_NAME");
@@ -39,23 +43,15 @@ public class Solution {
         } catch (SQLException e) {
             e.printStackTrace();
             result = null;
-        } finally {
-            if(stmt != null) {
-                try {
-                    stmt.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-            }
-            if(rs != null) {
-                try {
-                    rs.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                }
-            }
         }
         return result;
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+        if (connection != null)
+            connection.close();
     }
 
     public static class User {

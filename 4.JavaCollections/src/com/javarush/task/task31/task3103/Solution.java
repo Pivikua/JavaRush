@@ -8,7 +8,6 @@ import java.util.List;
 
 /* 
 Своя реализация
-// Программа работает как следует.
 */
 public class Solution {
     public static byte[] readBytes(String fileName) throws IOException {
@@ -16,8 +15,7 @@ public class Solution {
     }
 
     public static List<String> readLines(String fileName) throws IOException {
-        Charset.defaultCharset();
-        return Files.readAllLines(Paths.get(fileName));
+        return Files.readAllLines(Paths.get(fileName), Charset.defaultCharset());
     }
 
     public static void writeBytes(String fileName, byte[] bytes) throws IOException {
